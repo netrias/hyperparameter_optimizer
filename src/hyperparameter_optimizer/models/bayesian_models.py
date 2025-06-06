@@ -2,7 +2,7 @@
 
 from sklearn.naive_bayes import GaussianNB, BernoulliNB
 from sklearn.linear_model import BayesianRidge
-from models.base_models import BaseModel
+from .base_models import BaseModel
 from sklearn.base import BaseEstimator
 
 

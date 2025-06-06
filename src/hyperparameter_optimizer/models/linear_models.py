@@ -1,7 +1,7 @@
 # src/models/logistic_models.py
 
 from sklearn.linear_model import LogisticRegression, Ridge, Lasso
-from models.base_models import BaseModel
+from .base_models import BaseModel
 from sklearn.base import BaseEstimator
 
 

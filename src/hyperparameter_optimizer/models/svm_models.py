@@ -1,5 +1,5 @@
 from sklearn.svm import SVC, SVR
-from models.base_models import BaseModel
+from .base_models import BaseModel
 from sklearn.base import BaseEstimator
 
 

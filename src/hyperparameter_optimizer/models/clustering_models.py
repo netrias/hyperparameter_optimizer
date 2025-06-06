@@ -2,7 +2,7 @@
 
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering, SpectralClustering
 from sklearn.metrics import silhouette_score
-from models.unsupervised_base_models import UnsupervisedBaseModel
+from .unsupervised_base_models import UnsupervisedBaseModel
 
 class KMeansModel(UnsupervisedBaseModel):
     def __init__(self, model_cls=KMeans, hyperparameters=None, loss_function=None):

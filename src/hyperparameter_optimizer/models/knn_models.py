@@ -1,7 +1,7 @@
 # src/models/knn_models.py
 
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
-from models.base_models import BaseModel
+from .base_models import BaseModel
 from sklearn.base import BaseEstimator
 
 

@@ -1,7 +1,7 @@
 # src/models/ensemble_models.py
 
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
-from models.base_models import BaseModel
+from .base_models import BaseModel
 from sklearn.base import BaseEstimator
 
 
