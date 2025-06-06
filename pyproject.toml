@@ -12,4 +12,9 @@ dependencies = ["scikit-learn>=1.4.0"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-packages = ["hyperparameter_optimizer"]
+packages = [
+    "hyperparameter_optimizer",
+    "hyperparameter_optimizer.models",
+    "hyperparameter_optimizer.optimizers",
+    "hyperparameter_optimizer.loss_functions",
+]
