@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperparameter_optimizer"
+version = "0.0.1"
+description = "Reusable hyper-parameter optimisation utilities"
+authors = [{name = "Chris Puglisi"}]
+requires-python = ">=3.9"
+dependencies = ["scikit-learn>=1.4.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["hyperparameter_optimizer"]

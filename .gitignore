@@ -1,0 +1,15 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+# Virtual-envs
+.venv/
+env/
+# IDE / editor
+.vscode/
+.idea/
+# Build / dist
+dist/
+build/
+# Jupyter checkpoints
+.ipynb_checkpoints/

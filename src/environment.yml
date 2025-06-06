@@ -1,0 +1,13 @@
+name: nb2app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - sklearn-pandas
+  - numpy
+  - pandas
+  - pip:
+    - scikit-optimize
+    - hyperopt
